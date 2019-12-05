@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1575541130 source:c:\daniel\informatica\poliapp\cosmin.c
+	<stdio.h>
+
+1575541133 source:c:\daniel\informatica\poliapp\dani.c
+	<stdio.h>
+
+1575541136 source:c:\daniel\informatica\poliapp\kristi.c
+	<stdio.h>
+
+1575543467 source:c:\daniel\informatica\poliapp\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cosmin.h"
+	"dani.h"
+	"kristi.h"
+	"tania.h"
+	"victor.h"
+
+1575540055 c:\daniel\informatica\poliapp\cosmin.h
+
+1575540046 c:\daniel\informatica\poliapp\dani.h
+
+1575540038 c:\daniel\informatica\poliapp\kristi.h
+
+1575540029 c:\daniel\informatica\poliapp\tania.h
+
+1575540022 c:\daniel\informatica\poliapp\victor.h
+
+1575543455 source:c:\daniel\informatica\poliapp\tania.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1575541142 source:c:\daniel\informatica\poliapp\victor.c
+	<stdio.h>
+
