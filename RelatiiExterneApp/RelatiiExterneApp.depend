@@ -1,0 +1,89 @@
+# depslib dependency file v1.0
+1575641654 source:e:\gitproject\poliapp\relatiiexterneapp\poliapp\david.c
+
+1575641619 source:e:\gitproject\poliapp\relatiiexterneapp\poliapp\diana.c
+
+1575641670 source:e:\gitproject\poliapp\relatiiexterneapp\poliapp\filip.c
+
+1575641636 source:e:\gitproject\poliapp\relatiiexterneapp\poliapp\iasmina.c
+
+1575641828 source:e:\gitproject\poliapp\relatiiexterneapp\poliapp\main.c
+	<stdio.h>
+	<stdlib.h>
+	"alex.h"
+	"diana.h"
+	"iasmina.h"
+	"filip.h"
+	"david.h"
+
+1575641708 source:e:\gitproject\poliapp\relatiiexterneapp\poliapp\alex.c
+
+1575641708 e:\gitproject\poliapp\relatiiexterneapp\poliapp\alex.h
+
+1575641830 e:\gitproject\poliapp\relatiiexterneapp\poliapp\diana.h
+
+1575641830 e:\gitproject\poliapp\relatiiexterneapp\poliapp\iasmina.h
+
+1575641830 e:\gitproject\poliapp\relatiiexterneapp\poliapp\filip.h
+
+1575641830 e:\gitproject\poliapp\relatiiexterneapp\poliapp\david.h
+
+1575640559 source:e:\gitproject\poliapp\relatiiexterneapp\alex.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1575640567 source:e:\gitproject\poliapp\relatiiexterneapp\david.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1575640567 source:e:\gitproject\poliapp\relatiiexterneapp\diana.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1575640567 source:e:\gitproject\poliapp\relatiiexterneapp\filip.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1575640567 source:e:\gitproject\poliapp\relatiiexterneapp\iasmina.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1575641828 source:e:\gitproject\poliapp\relatiiexterneapp\main.c
+	<stdio.h>
+	<stdlib.h>
+	"alex.h"
+	"diana.h"
+	"iasmina.h"
+	"filip.h"
+	"david.h"
+
+1575640323 e:\gitproject\poliapp\relatiiexterneapp\alex.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1575640323 e:\gitproject\poliapp\relatiiexterneapp\diana.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1575640323 e:\gitproject\poliapp\relatiiexterneapp\iasmina.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1575640323 e:\gitproject\poliapp\relatiiexterneapp\filip.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1575640323 e:\gitproject\poliapp\relatiiexterneapp\david.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
