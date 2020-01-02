@@ -36,3 +36,40 @@
 1575541142 source:c:\daniel\informatica\poliapp\victor.c
 	<stdio.h>
 
+1577905253 source:c:\users\danie\documents\github\poliapp\facultateapp\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cosmin.h"
+	"dani.h"
+	"kristi.h"
+	"tania.h"
+	"victor.h"
+
+1577206672 c:\users\danie\documents\github\poliapp\facultateapp\cosmin.h
+
+1577206672 c:\users\danie\documents\github\poliapp\facultateapp\dani.h
+
+1577206672 c:\users\danie\documents\github\poliapp\facultateapp\kristi.h
+
+1577206672 c:\users\danie\documents\github\poliapp\facultateapp\tania.h
+
+1577206672 c:\users\danie\documents\github\poliapp\facultateapp\victor.h
+
+1577206672 source:c:\users\danie\documents\github\poliapp\facultateapp\cosmin.c
+	<stdio.h>
+
+1577206672 source:c:\users\danie\documents\github\poliapp\facultateapp\kristi.c
+	<stdio.h>
+
+1577206672 source:c:\users\danie\documents\github\poliapp\facultateapp\tania.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1577206672 source:c:\users\danie\documents\github\poliapp\facultateapp\victor.c
+	<stdio.h>
+
+1577905264 source:c:\users\danie\documents\github\poliapp\facultateapp\dani.c
+	<stdio.h>
+
