@@ -20,17 +20,16 @@ void inserare_nota(struct student stud[], int n,char materii[][51], int m/*nr ma
 		}
 }
 void schimbare_nota(struct student stud[],int nrStud,char nume[],char prenume [],float nota_noua,int indice_materie)
-{ int i;
+{
+    int i;
     char numE[30],prenumE[30];
-printf("Dati numele dorit %s :",numE);
+    printf("Dati numele dorit %s :",numE);
     fgets(numE,29,stdin);
-printf("Dati prenume dorit %s :",prenumE);
+    printf("Dati prenume dorit %s :",prenumE);
     fgets(prenumE,29,stdin);
-printf("Dati nota noua %f :",nota_noua);
+    printf("Dati nota noua %f :",nota_noua);
     scanf("%f",&nota_noua);
-for(i=0;i<nrStud;i++)
-    if(strcmp(numE,stud[i].nume)==0 && (strcmp(prenumE,stud[i].prenume)==0))
-         stud[i].nota=nota_noua;
-
-
+    for(i=0;i<nrStud;i++)
+        if(strcmp(numE,stud[i].nume)==0 && (strcmp(prenumE,stud[i].prenume)==0))
+            stud[i].nota=nota_noua;
 }
