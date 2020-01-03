@@ -31,9 +31,23 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="InputStudents.csv" />
+		<Unit filename="PoliApp.cbp" />
+		<Unit filename="cosmin.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cosmin.h" />
+		<Unit filename="dani.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="dani.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="tania.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tania.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

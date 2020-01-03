@@ -15,7 +15,7 @@ struct student
     float taxa, nota;
 }students[301];
 
-int main()
+/*int main()
 {
 
     int i, nrStud;
@@ -28,7 +28,7 @@ int main()
     }
 
     return 0;
-}
+}*/
 
 
 
@@ -48,8 +48,8 @@ int main()
     int indice_materie;
     struct student v[200];
     int n,m;
-    printf(" %d n studenti=",n);scanf("%d",&n);
-    printf(" %d m materi=",m);scanf("%d",&m);
+    /*printf(" %d n studenti=",n);scanf("%d",&n);
+    printf(" %d m materi=",m);scanf("%d",&m);*/
     char materii[31][51];
     inserare_nota(v,n,materii,m);
     schimbare_nota(v,numE,prenumE,nota_noua,indice_materie);
