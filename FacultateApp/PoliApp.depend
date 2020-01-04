@@ -39,7 +39,7 @@
 1577206672 source:c:\users\danie\documents\github\poliapp\facultateapp\kristi.c
 	<stdio.h>
 
-1577206672 source:c:\users\danie\documents\github\poliapp\facultateapp\tania.c
+1578007900 source:c:\users\danie\documents\github\poliapp\facultateapp\tania.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -47,15 +47,15 @@
 1577206672 source:c:\users\danie\documents\github\poliapp\facultateapp\victor.c
 	<stdio.h>
 
-1577972471 source:c:\users\danie\documents\github\poliapp\facultateapp\cosmin.c
+1578007900 source:c:\users\danie\documents\github\poliapp\facultateapp\cosmin.c
 	<stdio.h>
 	<string.h>
 	<stdlib.h>
 
-1577970432 source:c:\users\danie\documents\github\poliapp\facultateapp\dani.c
+1578007900 source:c:\users\danie\documents\github\poliapp\facultateapp\dani.c
 	<stdio.h>
 
-1577973586 source:c:\users\danie\documents\github\poliapp\facultateapp\main.c
+1578160280 source:c:\users\danie\documents\github\poliapp\facultateapp\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -65,15 +65,15 @@
 	"tania.h"
 	"victor.h"
 
-1577206672 c:\users\danie\documents\github\poliapp\facultateapp\cosmin.h
+1578007900 c:\users\danie\documents\github\poliapp\facultateapp\cosmin.h
 
-1577206672 c:\users\danie\documents\github\poliapp\facultateapp\dani.h
+1578007900 c:\users\danie\documents\github\poliapp\facultateapp\dani.h
 
-1577206672 c:\users\danie\documents\github\poliapp\facultateapp\kristi.h
+1578007900 c:\users\danie\documents\github\poliapp\facultateapp\kristi.h
 
-1577206672 c:\users\danie\documents\github\poliapp\facultateapp\tania.h
+1578007900 c:\users\danie\documents\github\poliapp\facultateapp\tania.h
 
-1577206672 c:\users\danie\documents\github\poliapp\facultateapp\victor.h
+1578007900 c:\users\danie\documents\github\poliapp\facultateapp\victor.h
 
 1577972557 source:c:\users\cosmin-pc\documents\github\poliapp\facultateapp\cosmin.c
 	<stdio.h>
