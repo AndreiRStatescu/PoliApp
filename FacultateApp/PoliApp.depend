@@ -75,3 +75,36 @@
 
 1577206672 c:\users\danie\documents\github\poliapp\facultateapp\victor.h
 
+1577972557 source:c:\users\cosmin-pc\documents\github\poliapp\facultateapp\cosmin.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1577966287 source:c:\users\cosmin-pc\documents\github\poliapp\facultateapp\dani.c
+	<stdio.h>
+
+1577966287 source:c:\users\cosmin-pc\documents\github\poliapp\facultateapp\tania.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1578034990 source:c:\users\cosmin-pc\documents\github\poliapp\facultateapp\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cosmin.h"
+	"dani.h"
+	"kristi.h"
+	"tania.h"
+	"victor.h"
+
+1577966287 c:\users\cosmin-pc\documents\github\poliapp\facultateapp\cosmin.h
+
+1577966287 c:\users\cosmin-pc\documents\github\poliapp\facultateapp\dani.h
+
+1577966287 c:\users\cosmin-pc\documents\github\poliapp\facultateapp\kristi.h
+
+1577966287 c:\users\cosmin-pc\documents\github\poliapp\facultateapp\tania.h
+
+1577966287 c:\users\cosmin-pc\documents\github\poliapp\facultateapp\victor.h
+
