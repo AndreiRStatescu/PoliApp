@@ -9,6 +9,6 @@
 
 int main()
 {
-
+    main_colaboratori();
     return 0;
 }

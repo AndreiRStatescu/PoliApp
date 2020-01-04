@@ -8,7 +8,7 @@
 
 void criptare10(char s[101]);
 void decriptare10(char s[101]);
-
+int main_colaboratori();
 
 
 #endif // DIANA_H_INCLUDED
