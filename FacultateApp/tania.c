@@ -16,10 +16,10 @@ struct user
 
 void prprenume(char s[100])
 {
-    char *p,t[100];
-    p=strtok(s,"-");
+    char *pr,t[100];
+    pr=strtok(s," ");
 
-    strcpy(s,p);
+    strcpy(s,pr);
 }
 
 void creare_cont_secretar(struct user users[],int *nrUsers)
@@ -114,12 +114,20 @@ void Read_Students(struct student students[],struct user users[] ,int *nr, char 
         ok=0;
         p=strtok(NULL, ",");
         strcpy(users[k].parola,p);
+
+        p=strtok(NULL, ",");
+        students[k].an = atoi(p);
+        p=strtok(NULL, ",");
+        strcpy(students[k].sectie,p);
+        p=strtok(NULL, ",");
+        students[k].taxa = atof(p);
+
         strcpy(users[k].tipUtilizator,"student");
 
         strcpy(o,students[k].nume);
 
         strcpy(h,students[k].prenume);
-        //prprenume(h);
+        prprenume(h);
 
         strcpy(q,strlwr(o));
         strcat(q,strlwr(h));
@@ -148,14 +156,7 @@ void Read_Students(struct student students[],struct user users[] ,int *nr, char 
 
         }
 
-        p=strtok(NULL, ",");
-        students[k].an = atoi(p);
-        p=strtok(NULL, ",");
-        strcpy(students[k].sectie,p);
-        p=strtok(NULL, ",");
-        char t[5];
-        strcpy(t,p);
-        students[k].taxa = atof(t);
+
         k++;
     }
     *nr=k;
