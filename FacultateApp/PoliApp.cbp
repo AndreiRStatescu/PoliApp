@@ -31,9 +31,30 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename=".gitignore" />
+		<Unit filename="cosmin.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cosmin.h" />
+		<Unit filename="dani.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="dani.h" />
+		<Unit filename="kristi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="kristi.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="tania.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tania.h" />
+		<Unit filename="victor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="victor.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

@@ -36,3 +36,41 @@
 1575541142 source:c:\daniel\informatica\poliapp\victor.c
 	<stdio.h>
 
+1578611613 source:c:\users\krist\onedrive\documents\github\poliapp\facultateapp\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cosmin.h"
+	"dani.h"
+	"kristi.h"
+	"tania.h"
+	"victor.h"
+
+1578602887 c:\users\krist\onedrive\documents\github\poliapp\facultateapp\cosmin.h
+
+1578602887 c:\users\krist\onedrive\documents\github\poliapp\facultateapp\dani.h
+
+1578602887 c:\users\krist\onedrive\documents\github\poliapp\facultateapp\kristi.h
+
+1578602887 c:\users\krist\onedrive\documents\github\poliapp\facultateapp\tania.h
+
+1578602887 c:\users\krist\onedrive\documents\github\poliapp\facultateapp\victor.h
+
+1578603123 source:c:\users\krist\onedrive\documents\github\poliapp\facultateapp\cosmin.c
+	<stdio.h>
+
+1578602887 source:c:\users\krist\onedrive\documents\github\poliapp\facultateapp\dani.c
+	<stdio.h>
+
+1578602887 source:c:\users\krist\onedrive\documents\github\poliapp\facultateapp\tania.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1578602887 source:c:\users\krist\onedrive\documents\github\poliapp\facultateapp\victor.c
+	<stdio.h>
+
+1578611576 source:c:\users\krist\onedrive\documents\github\poliapp\facultateapp\kristi.c
+	<stdio.h>
+	<string.h>
+
