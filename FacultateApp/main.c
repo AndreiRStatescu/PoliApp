@@ -15,16 +15,12 @@ struct student
     float taxa, nota;
 }students[301];
 
-
-
-
-
-  int main()
+int main()
 {
 
     int i, nrStud;
 
-    Read_Students(students,&nrStud,"InputStudents.csv");
+    Read_Students(students,&nrStud,"students_input.csv");
 
     for(i=0;i<nrStud;i++)
     {
