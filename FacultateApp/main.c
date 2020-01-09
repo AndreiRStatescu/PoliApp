@@ -15,20 +15,7 @@ struct student
     float taxa, nota;
 }students[301];
 
-/*int main()
-{
 
-    int i, nrStud;
-
-    Read_Students(students,&nrStud,"students_input.csv");
-
-    for(i=0;i<nrStud;i++)
-    {
-        printf("%s, %s, %d, %s\n",students[i].nume,students[i].prenume,students[i].an,students[i].sectie);
-    }
-
-    return 0;
-}*/
 
 
 
@@ -43,17 +30,6 @@ struct student
     {
         printf("%s, %s, %d, %s\n",students[i].nume,students[i].prenume,students[i].an,students[i].sectie);
     }
-    char numE,prenumE;
-    float nota_noua;
-    int indice_materie;
-    struct student v[200];
-    int n,m;
-    /*printf(" %d n studenti=",n);scanf("%d",&n);
-    printf(" %d m materi=",m);scanf("%d",&m);*/
-    char materii[31][51];
-    inserare_nota(v,n,materii,m);
-    schimbare_nota(v,numE,prenumE,nota_noua,indice_materie);
-
 
     return 0;
 }
