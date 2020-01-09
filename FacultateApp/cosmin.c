@@ -1,7 +1,8 @@
 #include<stdio.h>
+
 #include <string.h>
 #include <stdlib.h>
-//salut
+
 struct student
 {
     char nume[31], prenume[31], sectie[11];
