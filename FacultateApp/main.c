@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 
+
 #include "cosmin.h"
 #include "dani.h"
 #include "kristi.h"
@@ -37,6 +38,11 @@ int main()
 
     for(;;)
     {
+<<<<<<< Updated upstream
+        system("cls");
+=======
+
+>>>>>>> Stashed changes
         printf("Apasati 1 pentru a va loga ca admin\n");
         printf("Apasati 2 pentru a va loga ca secretar\n");
         printf("Apasati 3 pentru a va loga ca student\n");
@@ -48,32 +54,45 @@ int main()
         case 1:
             for(;;)
             {
+                int undo=0;
+                system("cls");
                 for(i=0; i<nrUtilizatori; i++)
                 {
                     printf("%s %s %s",users[i].numeUtilizator,users[i].parola,users[i].tipUtilizator);
                     printf("\n");
                 }
+<<<<<<< Updated upstream
+
+                printf("Apasati 1 pentru a crea un cont de secretar\n");
+                printf("Apasati 2 pentru a sterge un cont de secretar\n");
+                printf("Apasati 0 pentru a merge inapoi\n");
+=======
+                system("clear");
                 printf("Apasati 4 pentru a crea un cont de secretar\n");
                 printf("Apasati 5 pentru a sterge un cont de secretar\n");
                 printf("Apasati 6 pentru a iesi\n");
+>>>>>>> Stashed changes
                 int op;
                 scanf("%d",&op);
                 getchar();
                 switch(op)
                 {
-                case 4:
+                case 1:
                     creare_cont_secretar(users,&nrUtilizatori);
 
                     break;
-                case 5:
+                case 2:
                     stergere_cont_secretar(users,&nrUtilizatori);
 
 
                     break;
-                case 6:
-                    return 0;
+                case 0:
+                    undo=1;
+                    break;
 
                 }
+                if(undo==1)
+                    break;
             }
             break;
         case 2:

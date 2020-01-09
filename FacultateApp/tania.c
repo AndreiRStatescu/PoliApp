@@ -127,6 +127,7 @@ void Read_Students(struct student students[],struct user users[] ,int *nr, char 
         strcpy(o,students[k].nume);
 
         strcpy(h,students[k].prenume);
+        prprenume(o);
         prprenume(h);
 
         strcpy(q,strlwr(o));

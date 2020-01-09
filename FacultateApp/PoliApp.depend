@@ -42,7 +42,7 @@
 1578213554 source:c:\users\danie\documents\github\poliapp\facultateapp\kristi.c
 	<stdio.h>
 
-1578213554 source:c:\users\danie\documents\github\poliapp\facultateapp\main.c
+1578604133 source:c:\users\danie\documents\github\poliapp\facultateapp\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -62,7 +62,11 @@
 
 1578213554 c:\users\danie\documents\github\poliapp\facultateapp\victor.h
 
-1578252676 source:c:\users\danie\documents\github\poliapp\facultateapp\tania.c
+<<<<<<< Updated upstream
+1578603229 source:c:\users\danie\documents\github\poliapp\facultateapp\tania.c
+=======
+1578598604 source:c:\users\danie\documents\github\poliapp\facultateapp\tania.c
+>>>>>>> Stashed changes
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
