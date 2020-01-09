@@ -20,7 +20,7 @@ int main()
 
     int i, nrStud;
 
-    Read_Students(students,&nrStud,"students_input.csv");
+    Read_Students(students,&nrStud,"InputStudents.csv");
 
     for(i=0;i<nrStud;i++)
     {

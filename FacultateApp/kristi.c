@@ -22,7 +22,8 @@ void eliminare(struct student v[], char nume[] , char prenume[],int nrStd)
     }
     for(x=k;x<nrStd;x++)
         strcpy(v[x].nume,v[x+1].nume);
-    }
+
+}
 
 
 
