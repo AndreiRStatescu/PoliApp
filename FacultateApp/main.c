@@ -38,11 +38,8 @@ int main()
 
     for(;;)
     {
-<<<<<<< Updated upstream
         system("cls");
-=======
 
->>>>>>> Stashed changes
         printf("Apasati 1 pentru a va loga ca admin\n");
         printf("Apasati 2 pentru a va loga ca secretar\n");
         printf("Apasati 3 pentru a va loga ca student\n");
@@ -61,17 +58,12 @@ int main()
                     printf("%s %s %s",users[i].numeUtilizator,users[i].parola,users[i].tipUtilizator);
                     printf("\n");
                 }
-<<<<<<< Updated upstream
+
 
                 printf("Apasati 1 pentru a crea un cont de secretar\n");
                 printf("Apasati 2 pentru a sterge un cont de secretar\n");
                 printf("Apasati 0 pentru a merge inapoi\n");
-=======
-                system("clear");
-                printf("Apasati 4 pentru a crea un cont de secretar\n");
-                printf("Apasati 5 pentru a sterge un cont de secretar\n");
-                printf("Apasati 6 pentru a iesi\n");
->>>>>>> Stashed changes
+
                 int op;
                 scanf("%d",&op);
                 getchar();
@@ -83,7 +75,6 @@ int main()
                     break;
                 case 2:
                     stergere_cont_secretar(users,&nrUtilizatori);
-
 
                     break;
                 case 0:

@@ -78,24 +78,33 @@ void stergere_cont_secretar(struct user users[],int *nrUsers)
 }
 
 void criptare(char s[100])
-{int i;
-
-for(i=0;i<strlen(s);i++)
 {
-    if(s[i]=='a')
-     s[i]='e';
-
-}
+    int i;
+    for(i=0;i<strlen(s);i++)
+    {
+        if(s[i]>='A' && s[i]<='N')
+            s[i]+=38;
+        else if(s[i]>='l' && s[i]<='z')
+            s[i]-=40;
+        else if (s[i]>='0' && s[i]<='9')
+            s[i]-=48;
+    }
+    strrev(s);
 }
 
 void decriptare(char s[100])
-{int i;
-for(i=0;i<strlen(s);i++)
 {
-    if(s[i]=='e')
-     s[i]='a';
-
-}
+    int i;
+    strrev(s);
+    for(i=0;i<strlen(s);i++)
+    {
+        if((s[i]-38)>='A' && (s[i]-38)<='N')
+            s[i]-=38;
+        else if((s[i]+40)>='l' && (s[i]+40)<='z')
+            s[i]+=40;
+        else if (s[i]>=0 && s[i]<=9)
+            s[i]+=48;
+    }
 
 }
 void Read_Students(struct student students[],struct user users[] ,int *nr, char finput[],int *nrUsers)
@@ -135,7 +144,7 @@ void Read_Students(struct student students[],struct user users[] ,int *nr, char 
 
         strcpy(r,q);
         strcat(r,"@upt.student.ro");
-        x=0;
+       /* x=0;
         for(i=0; i<k; i++)
         {
             strcpy(a,students[i].prenume);
@@ -155,7 +164,7 @@ void Read_Students(struct student students[],struct user users[] ,int *nr, char 
             strcat(q,s);
             strcpy(users[k].numeUtilizator,strcat(q,"@upt.student.ro"));
 
-        }
+        }*/
 
 
         k++;
