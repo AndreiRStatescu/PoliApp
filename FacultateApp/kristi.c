@@ -22,7 +22,26 @@ void eliminare(struct student v[], char nume[] , char prenume[],int nrStd)
     }
     for(x=k;x<nrStd;x++)
         strcpy(v[x].nume,v[x+1].nume);
+        for(int i=0;i<nrStd-k;i++)
+            printf("%s",v[i]);
+
     }
+
+
+void transfer(struct student students[], int nrStd , char nume[],char prenume[],char sectienoua[])
+{
+    int i,k;
+    char r[20];
+    for(i=0;i<nrStd;i++)
+    {
+        if(strcmp(students[i].nume,nume)==0 && strcmp(students[i].prenume,prenume)==0)
+        {
+             strcpy(students[i].sectie,sectienoua);
+        }
+
+
+    }
+}
 
 
 
