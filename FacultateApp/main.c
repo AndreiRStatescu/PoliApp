@@ -26,7 +26,16 @@ struct user
 int main()
 {
 
-    int i, nrStud,nrUtilizatori;
+    int i, nrStud,nrUtilizatori,nrMat=0;
+    char materii[20][31], line[31];
+    FILE *f = fopen("InputMaterii.txt", "r");
+    while(fgets(line,30,f))
+    {
+        line[strlen(line)-1]='\0';
+        strcpy(materii[nrMat++],line);
+    }
+
+
 
     Read_Students(students,users,&nrStud,"InputStudents.csv",&nrUtilizatori);
 
@@ -87,6 +96,35 @@ int main()
             }
             break;
         case 2:
+            for(;;)
+            {
+                int undo=0;
+                system("cls");
+                printf("Apasati 1 pentru a adauga note\n");
+                printf("Apasati 2 pentru a schimba o nota\n");
+                printf("Apasati 0 pentru a merge inapoi\n");
+
+                int op;
+                scanf("%d",&op);
+                getchar();
+                switch(op)
+                {
+                case 1:
+                    inserare_note(students,nrStud,materii,nrMat);
+
+                    break;
+                case 2:
+                    schimbare_nota(students,nrStud,materii,nrMat);
+
+                    break;
+                case 0:
+                    undo=1;
+                    break;
+
+                }
+                if(undo==1)
+                    break;
+            }
             break;
         case 3:
             break;
