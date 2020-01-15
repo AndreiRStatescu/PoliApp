@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1578740113 source:c:\users\r556u\desktop\casi\da\main.c
+	<stdio.h>
+	"casi.h"
+
+1578739910 c:\users\r556u\desktop\casi\da\casi.h
+
+1578740204 source:c:\users\r556u\desktop\casi\da\casi.c
+	<stdio.h>
+
+1579112289 source:c:\users\oprun\desktop\c project\main.c
+	<stdio.h>
+	"casi.h"
+
+1579113142 c:\users\oprun\desktop\c project\casi.h
+
+1579113139 source:c:\users\oprun\desktop\c project\casi.c
+	<stdio.h>
+
