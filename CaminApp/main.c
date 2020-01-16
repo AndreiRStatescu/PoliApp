@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include "casi.h"
+#include "ale.h"
 
 int main()
 {
-    int k,n;
+    int k,n,camin;
     printf("Bine ai venit pe alicatia Camine.app \n Inainte da a te loga te rog selecteaza una dintre optiunile urmatoare: \n 1.Sunt SuperAdmin; \n 2.Sunt admin; \n 3.Sunt student.");
     printf("\nOptiunea ta este:");scanf("%d",&k);
     getchar();
@@ -42,11 +43,10 @@ int main()
         //aici vine functia "Muta un student"
         break;
         case 4:
-        //aici vine functia "Achita un student"
+            printf("Care este caminul la care esti administrator?");scanf("%d",&camin);//cand va fi gata logarea,fiecare admin va putea vedea doar situatia de pe caminul lui
+            afisare_situatie(camin);
         break;
-        case 5:
-        //aici vine functia "Situatia pe camin"
-        break;}
+       }
     break;
     case 3:
     //Aici vine logare student
