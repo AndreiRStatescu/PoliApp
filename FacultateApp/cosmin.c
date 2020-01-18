@@ -7,10 +7,10 @@ struct student
 {
     char nume[31], prenume[31], sectie[11];
     int an;
-    float taxa, nota[20];
+    float taxa, nota[31];
 };
 
-void inserare_note(struct student stud[], int n,char materii[][51], int m)
+void inserare_note(struct student stud[], int n,char materii[][31], int m)
 {
 	int i, j;
 	for (i = 0; i < n; i++)
@@ -20,18 +20,21 @@ void inserare_note(struct student stud[], int n,char materii[][51], int m)
 			scanf("%f", &stud[i].nota[j]);
 		}
 }
-void schimbare_nota(struct student stud[], int n,char materii[][51], int m)
+void schimbare_nota(struct student stud[], int n,char materii[][31], int m)
 {
     int i,j;
     char numE[31],prenumE[31],mat[31];
     float nota_noua;
-    printf("Dati numele dorit");
+    printf("Dati numele dorit: ");
     fgets(numE,30,stdin);
-    printf("Dati prenume dorit");
+    numE[strlen(numE)-1]='\0';
+    printf("Dati prenume dorit: ");
     fgets(prenumE,30,stdin);
-    printf("Dati materia dorita");
+    prenumE[strlen(prenumE)-1]='\0';
+    printf("Dati materia dorita: ");
     fgets(mat,30,stdin);
-    printf("Dati nota noua");
+    mat[strlen(mat)-1]='\0';
+    printf("Dati nota noua: ");
     scanf("%f",&nota_noua);
     for(i=0;i<n;i++)
         if(strcmp(numE,stud[i].nume)==0 && (strcmp(prenumE,stud[i].prenume)==0))

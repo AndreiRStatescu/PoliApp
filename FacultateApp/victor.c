@@ -4,7 +4,7 @@ struct student
 {
     char nume[31], prenume[31], sectie[11];
     int an;
-    float taxa, nota;
+    float taxa, nota[31];
 };
 struct date
 {char username[30];

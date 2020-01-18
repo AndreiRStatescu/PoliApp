@@ -14,7 +14,7 @@ struct student
 {
     char nume[31], prenume[31], sectie[11];
     int an;
-    float taxa, nota;
+    float taxa, nota[31];
 
 } students[301];
 
@@ -26,7 +26,7 @@ struct user
 int main()
 {
 
-    int i, nrStud,nrUtilizatori,nrMat=0;
+    int i,j, nrStud,nrUtilizatori,nrMat=0;
     char materii[20][31], line[31];
     FILE *f = fopen("InputMaterii.txt", "r");
     while(fgets(line,30,f))
@@ -110,11 +110,17 @@ int main()
                 switch(op)
                 {
                 case 1:
+
                     inserare_note(students,nrStud,materii,nrMat);
 
                     break;
                 case 2:
+                    for (i = 0; i < nrStud; i++)
+                        for (j = 0; j < nrMat; j++)
+                            printf("Nota lui %s %s la %s este: %.2f\n", students[i].nume, students[i].prenume, materii[j],students[i].nota[j]);
+
                     schimbare_nota(students,nrStud,materii,nrMat);
+
 
                     break;
                 case 0:
