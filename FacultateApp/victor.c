@@ -16,7 +16,7 @@ void update(struct student v[]){
  FILE *f;
     int n,i;
 //    struct student v[100];
-     f=fopen("C:\\Users\\victo\\Desktop\\Probleme lab\\Update.txt","w");
+     f=fopen("Update.txt","w");
 for(i=0;i<n;i++)    {
         fprintf(f,"%s,",v[i].nume);
         fprintf(f,"%s,",v[i].prenume);
