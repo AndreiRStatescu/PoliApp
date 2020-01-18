@@ -74,17 +74,41 @@
 	<stdio.h>
 	<string.h>
 
-1578604792 source:c:\users\danie\documents\github\poliapp\facultateapp\cosmin.c
+1579371185 source:c:\users\danie\documents\github\poliapp\facultateapp\cosmin.c
 	<stdio.h>
 
-1578213554 source:c:\users\danie\documents\github\poliapp\facultateapp\dani.c
+1579371185 source:c:\users\danie\documents\github\poliapp\facultateapp\dani.c
 	<stdio.h>
 
-1578213554 source:c:\users\danie\documents\github\poliapp\facultateapp\victor.c
+1579371185 source:c:\users\danie\documents\github\poliapp\facultateapp\victor.c
 	<stdio.h>
 
-1578612410 source:c:\users\danie\documents\github\poliapp\facultateapp\tania.c
+1579371185 source:c:\users\danie\documents\github\poliapp\facultateapp\tania.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
+
+1579371781 source:c:\users\danie\documents\github\poliapp\facultateapp\kristi.c
+	<stdio.h>
+	<string.h>
+
+1579371724 source:c:\users\danie\documents\github\poliapp\facultateapp\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cosmin.h"
+	"dani.h"
+	"kristi.h"
+	"tania.h"
+	"victor.h"
+
+1578213554 c:\users\danie\documents\github\poliapp\facultateapp\cosmin.h
+
+1578213554 c:\users\danie\documents\github\poliapp\facultateapp\dani.h
+
+1578213554 c:\users\danie\documents\github\poliapp\facultateapp\kristi.h
+
+1578213554 c:\users\danie\documents\github\poliapp\facultateapp\tania.h
+
+1578213554 c:\users\danie\documents\github\poliapp\facultateapp\victor.h
 

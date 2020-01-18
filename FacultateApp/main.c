@@ -26,12 +26,14 @@ int main()
     {
         printf("%s, %s, %d, %s\n",students[i].nume,students[i].prenume,students[i].an,students[i].sectie);
     }
-    char nume[30],prenume[30],v[50];
-    int n=2;
-    scanf("%s",v);
+    char nume[30],prenume[30];
     scanf("%s",nume);
     scanf("%s",prenume);
-    eliminare(n,v,nume,prenume);
-
+    eliminare(students,nume,prenume,nrStud);
+    nrStud--;
+    for(i=0;i<nrStud;i++)
+    {
+        printf("%s, %s, %d, %s\n",students[i].nume,students[i].prenume,students[i].an,students[i].sectie);
+    }
     return 0;
 }
