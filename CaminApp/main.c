@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "casi.h"
+#include "cata.h"
 
 int main()
 {
@@ -18,7 +19,7 @@ int main()
         scanf("%d",&k);
         switch (k){
         case 1:
-            //Urmeaza
+        a_creeaza_cont();
         break;
         case 2:
         printf("Introduceti numarul caminului de la care doriti sa stergeti contul de administrator:");
@@ -28,12 +29,12 @@ int main()
     }
     break;
     case 2:
-    //Aici vine logare admin
+    // logare admin
     printf("Bine ai venit! Iata care sunt optiunile tale:\n 1. Adauga un student; \n 2.Elimina un student;\n 3.Muta un student; \n 4.Situatia pe camin.\n Ce alegi sa faci astazi:");
         scanf("%d",&k);
     switch (k){
         case 1:
-        //aici vine functia "Adauga un student"
+        s_creeaza_cont(19, 107);
         break;
         case 2:
         //aici vine functia "Elimina un student"

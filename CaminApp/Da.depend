@@ -17,3 +17,19 @@
 1579113139 source:c:\users\oprun\desktop\c project\casi.c
 	<stdio.h>
 
+1579294835 source:c:\users\asus\desktop\github\poliapp\caminapp\casi.c
+	<stdio.h>
+
+1579371588 source:c:\users\asus\desktop\github\poliapp\caminapp\cata.c
+	<stdio.h>
+	<string.h>
+
+1579537888 source:c:\users\asus\desktop\github\poliapp\caminapp\main.c
+	<stdio.h>
+	"casi.h"
+	"cata.h"
+
+1579294835 c:\users\asus\desktop\github\poliapp\caminapp\casi.h
+
+1579370914 c:\users\asus\desktop\github\poliapp\caminapp\cata.h
+
