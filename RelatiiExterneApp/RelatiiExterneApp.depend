@@ -28,17 +28,21 @@
 
 1575641830 e:\gitproject\poliapp\relatiiexterneapp\poliapp\david.h
 
-1575640559 source:e:\gitproject\poliapp\relatiiexterneapp\alex.c
+1579808145 source:e:\gitproject\poliapp\relatiiexterneapp\alex.c
 	<stdio.h>
 	<string.h>
 	<stdlib.h>
+	"diana.h"
+	"iasmina.h"
+	"filip.h"
+	"david.h"
 
 1575640567 source:e:\gitproject\poliapp\relatiiexterneapp\david.c
 	<stdio.h>
 	<string.h>
 	<stdlib.h>
 
-1575640567 source:e:\gitproject\poliapp\relatiiexterneapp\diana.c
+1579802511 source:e:\gitproject\poliapp\relatiiexterneapp\diana.c
 	<stdio.h>
 	<string.h>
 	<stdlib.h>
@@ -53,7 +57,7 @@
 	<string.h>
 	<stdlib.h>
 
-1575641828 source:e:\gitproject\poliapp\relatiiexterneapp\main.c
+1579802949 source:e:\gitproject\poliapp\relatiiexterneapp\main.c
 	<stdio.h>
 	<stdlib.h>
 	"alex.h"
@@ -62,12 +66,12 @@
 	"filip.h"
 	"david.h"
 
-1575640323 e:\gitproject\poliapp\relatiiexterneapp\alex.h
+1579802569 e:\gitproject\poliapp\relatiiexterneapp\alex.h
 	<stdio.h>
 	<string.h>
 	<stdlib.h>
 
-1575640323 e:\gitproject\poliapp\relatiiexterneapp\diana.h
+1579802511 e:\gitproject\poliapp\relatiiexterneapp\diana.h
 	<stdio.h>
 	<string.h>
 	<stdlib.h>
