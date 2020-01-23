@@ -90,6 +90,7 @@ int cauta_student()
 
 
     }
+    fclose(fp);
     return 0;
 
 }
@@ -170,5 +171,6 @@ int cauta_admin()
 
 
     }
+    fclose(fp);
     return 0;
 }
