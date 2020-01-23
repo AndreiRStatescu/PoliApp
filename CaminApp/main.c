@@ -22,10 +22,9 @@ int main()
             //Urmeaza
         break;
         case 2:
-
         printf("Introduceti numarul caminului de la care doriti sa stergeti contul de administrator:");
         scanf("%d",&n);
-
+        //Urmeaza
         break;
     }
     break;
@@ -43,7 +42,7 @@ int main()
         //aici vine functia "Adauga un student"
         break;
         case 2:
-
+        //aici vine functia "Elimina un student"
         break;
         case 3:
         //aici vine functia "Muta un student"

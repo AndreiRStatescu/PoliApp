@@ -8,7 +8,10 @@ int logare_sadministrator(){
     char parola[30], psadmin[]="1\n";
     printf("Parola:");fgets(parola, 30, stdin);
     if ((strcmp(nume,sadmin)==0)&&(strcmp(parola,psadmin)==0)) return 1;
-    return 0;}
+
+    return 0;
+}
+
 void plata_taxa()
 {
     char numar[20];
