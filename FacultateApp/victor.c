@@ -35,3 +35,41 @@ int login(char user,char parola,struct date v[])
     else
         return 0;
 }
+void cerere(char nume[],char prenume[], float suma)
+{
+    FILE *f;
+    char w[30];
+    char rand[100]="";
+
+    f=fopen("ToDoList.txt","a");
+    itoa(suma,w,10);
+    strcat(rand,nume);
+    strcat(rand," ");
+    strcat(rand, prenume);
+    strcat(rand," doreste sa achite ");
+    strcat(rand,w);
+    strcat(rand," lei");
+    fprintf(f,"%s",rand);
+    fprintf(f,"\n");
+}
+void stergere(int rand)
+{
+    FILE *f;
+    f=fopen("ToDoList.txt","r+");
+    char linie[101],m[50][101];
+    int n=0,i;
+    while(fgets(linie,100,f))
+    {
+        strcpy(m[n++],linie);
+        m[n-1][strlen(m[n-1])-1]='\0';
+    }
+    fclose(f);
+      f=fopen("ToDoList.txt","w");
+    for(i=rand-1; i<n; i++)
+    {
+        strcpy(m[i],m[i+1]);
+    }
+    n--;
+    for(i=0; i<n; i++)
+        fprintf(f,"%s\n",m[i]);
+}
