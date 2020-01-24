@@ -2,10 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-#include "diana.h"
-#include "iasmina.h"
-#include "filip.h"
-#include "david.h"
+
 
 
 void Afisare(char c[10000])
@@ -39,28 +36,8 @@ void DeCreep(char c[10000])
 }
 
 
-void stele1(char s[])
-{
-    int i,n=strlen(s);
-    for (i=0; i<n; i++)
-    {
-        if (s[i]==' ')
-            s[i]='*';
-        else
-            s[i];
-    }
-}
-void stele2(char s[])
-{
-    int i,n=strlen(s);
-    for (i=0; i<n; i++)
-    {
-        if (s[i]=='*')
-            s[i]=' ';
-        else
-            s[i];
-    }
-}
+
+
 
 void done(char sir[])
 {

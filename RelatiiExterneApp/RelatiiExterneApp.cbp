@@ -34,23 +34,38 @@
 		<Unit filename="alex.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="alex.h" />
+		<Unit filename="alex.h">
+			<Option compile="1" />
+			<Option link="1" />
+		</Unit>
 		<Unit filename="david.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="david.h" />
+		<Unit filename="david.h">
+			<Option compile="1" />
+			<Option link="1" />
+		</Unit>
 		<Unit filename="diana.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="diana.h" />
+		<Unit filename="diana.h">
+			<Option compile="1" />
+			<Option link="1" />
+		</Unit>
 		<Unit filename="filip.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="filip.h" />
+		<Unit filename="filip.h">
+			<Option compile="1" />
+			<Option link="1" />
+		</Unit>
 		<Unit filename="iasmina.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="iasmina.h" />
+		<Unit filename="iasmina.h">
+			<Option compile="1" />
+			<Option link="1" />
+		</Unit>
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
