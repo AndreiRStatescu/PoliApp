@@ -8,5 +8,6 @@
 
 void criptare (char s[101]);
 void decriptare (char s[101]);
+int cautare();
 
 #endif // IASMINA_H_INCLUDED
