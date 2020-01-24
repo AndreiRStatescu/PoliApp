@@ -73,3 +73,13 @@ void stergere(int rand)
     for(i=0; i<n; i++)
         fprintf(f,"%s\n",m[i]);
 }
+
+void plata(char nume[],char prenume [],float suma,struct student students[],int n)
+{
+    int i;
+    for(i=0; i<n; i++)
+    {
+        if(stricmp(nume,students[i].nume)==0 && stricmp(prenume,students[i].prenume)==0)
+            students[i].taxa=students[i].taxa-suma;
+    }
+
