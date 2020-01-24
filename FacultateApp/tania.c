@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
+
 struct student
 {
     char nume[31], prenume[31], sectie[11];
