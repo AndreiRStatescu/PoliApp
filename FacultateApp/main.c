@@ -3,12 +3,12 @@
 #include <stdlib.h>
 #include <string.h>
 
-
 #include "cosmin.h"
 #include "dani.h"
 #include "kristi.h"
 #include "tania.h"
 #include "victor.h"
+
 
 struct student
 {

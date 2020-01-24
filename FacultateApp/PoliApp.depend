@@ -82,3 +82,42 @@
 1579369824 source:c:\users\danie\documents\github\poliapp\facultateapp\dani.c
 	<stdio.h>
 
+1579899193 source:c:\users\alexa\documents\github\poliapp\facultateapp\dani.c
+	<stdio.h>
+
+1579899193 source:c:\users\alexa\documents\github\poliapp\facultateapp\kristi.c
+	<stdio.h>
+
+1579899193 source:c:\users\alexa\documents\github\poliapp\facultateapp\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cosmin.h"
+	"dani.h"
+	"kristi.h"
+	"tania.h"
+	"victor.h"
+
+1577353581 c:\users\alexa\documents\github\poliapp\facultateapp\cosmin.h
+
+1577353581 c:\users\alexa\documents\github\poliapp\facultateapp\dani.h
+
+1577353581 c:\users\alexa\documents\github\poliapp\facultateapp\kristi.h
+
+1577353581 c:\users\alexa\documents\github\poliapp\facultateapp\tania.h
+
+1577353581 c:\users\alexa\documents\github\poliapp\facultateapp\victor.h
+
+1579899193 source:c:\users\alexa\documents\github\poliapp\facultateapp\tania.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1579899193 source:c:\users\alexa\documents\github\poliapp\facultateapp\victor.c
+	<stdio.h>
+
+1579899193 source:c:\users\alexa\documents\github\poliapp\facultateapp\cosmin.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
