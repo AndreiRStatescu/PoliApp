@@ -10,5 +10,6 @@
 int main()
 {
     main_studenti();
+    main_organizator();
     return 0;
 }
