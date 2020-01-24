@@ -9,6 +9,6 @@
 
 int main()
 {
-    main_colaboratori();
+    main_studenti();
     return 0;
 }
