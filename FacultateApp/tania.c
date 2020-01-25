@@ -12,7 +12,7 @@ struct student
 
 struct user
 {
-    char numeUtilizator[100],parola[31],tipUtilizator[31];
+    char username[100],password[31],type[31],nume[31],prenume[31];
 };
 
 void prprenume(char s[100])
@@ -44,10 +44,10 @@ void creare_cont_secretar(struct user users[],int *nrUsers)
     strcat(q,"@upt.ro");
     *nrUsers=*nrUsers+1; printf("%d",*nrUsers);
 
-    strcpy(users[*nrUsers-1].numeUtilizator,q);
-    strcpy(users[*nrUsers-1].tipUtilizator,"secretar");
+    strcpy(users[*nrUsers-1].username,q);
+    strcpy(users[*nrUsers-1].type,"secretar");
 
-    strcpy(users[*nrUsers-1].parola,parola);
+    strcpy(users[*nrUsers-1].password,parola);
 
 }
 
@@ -62,12 +62,12 @@ void stergere_cont_secretar(struct user users[],int *nrUsers)
 
     for(i=0; i<*nrUsers; i++)
     {
-        if(strcmp(buf,users[i].numeUtilizator)==0)
+        if(strcmp(buf,users[i].username)==0)
         {
             for(j=i; j<*nrUsers-1; j++)
-            {strcpy(users[j].numeUtilizator,users[j+1].numeUtilizator);
-               strcpy(users[j].tipUtilizator,users[j+1].tipUtilizator);
-               strcpy(users[j].parola,users[j+1].parola);
+            {strcpy(users[j].username,users[j+1].username);
+               strcpy(users[j].type,users[j+1].username);
+               strcpy(users[j].password,users[j+1].password);
 
 
             }
@@ -123,7 +123,7 @@ void Read_Students(struct student students[],struct user users[] ,int *nr, char 
         strcpy(students[k].prenume,p);
         ok=0;
         p=strtok(NULL, ",");
-        strcpy(users[k].parola,p);
+        strcpy(users[k].password,p);
 
         p=strtok(NULL, ",");
         students[k].an = atoi(p);
@@ -132,7 +132,7 @@ void Read_Students(struct student students[],struct user users[] ,int *nr, char 
         p=strtok(NULL, ",");
         students[k].taxa = atof(p);
 
-        strcpy(users[k].tipUtilizator,"student");
+        strcpy(users[k].username,"student");
 
         strcpy(o,students[k].nume);
 
@@ -145,7 +145,7 @@ void Read_Students(struct student students[],struct user users[] ,int *nr, char 
 
         strcpy(r,q);
         strcat(r,"@upt.student.ro");
-        strcpy(users[k].numeUtilizator,r);
+        strcpy(users[k].username,r);
        /* x=0;
         for(i=0; i<k; i++)
         {

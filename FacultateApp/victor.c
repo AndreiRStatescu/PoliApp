@@ -6,18 +6,17 @@ struct student
     int an;
     float taxa, nota[31];
 };
-struct date
-{char username[30];
-char password[30];
-
+struct user
+{
+    char username[100],password[31],type[31],nume[31],prenume[31];
 };
 
-void update(struct student v[]){
+void update(struct student v[], int nrStud){
  FILE *f;
-    int n,i;
-//    struct student v[100];
-     f=fopen("Update.txt","w");
-for(i=0;i<n;i++)    {
+    int i;
+
+     f=fopen("StudentsData.txt","w");
+for(i=0;i<nrStud;i++)    {
         fprintf(f,"%s,",v[i].nume);
         fprintf(f,"%s,",v[i].prenume);
         fprintf(f,"%s,",v[i].sectie);
@@ -27,10 +26,10 @@ for(i=0;i<n;i++)    {
         fprintf(f,"\n");
 
     }}
-int login(char user,char parola,struct date v[])
+int login(char user,char parola,struct user v[], char tip[])
 {int n,i;
     for(i=0;i<n;i++)
-    if(strcmp(user,v[i].username)==0 && strcmp(parola,v[i].password)==0)
+    if(strcmp(user,v[i].username)==0 && strcmp(parola,v[i].password)==0 && strcmp(tip,v[i].type))
         return 1;
     else
         return 0;
@@ -82,25 +81,20 @@ void plata(char nume[],char prenume [],float suma,struct student students[],int 
         if(stricmp(nume,students[i].nume)==0 && stricmp(prenume,students[i].prenume)==0)
             students[i].taxa=students[i].taxa-suma;
     }
-struct date
-{
-    char username[30];
-    char password[30];
-    char nume[30];
-    char prenume[30];
-} dates[50];
+}
 
-void updateuser(struct date dates[],int n)
+void updateuser(struct user dates[],int n)
 {
     FILE *f;
     int i;
-    f=fopen("Updateuser.txt","w");
+    f=fopen("UsersData.txt","w");
     for(i=0; i<n; i++)
     {
         fprintf(f,"%s,",dates[i].nume);
         fprintf(f,"%s,",dates[i].prenume);
         fprintf(f,"%s,",dates[i].username);
         fprintf(f,"%s,",dates[i].password);
+        fprintf(f,"%s,",dates[i].type);
         fprintf(f,"\n");
 
     }
