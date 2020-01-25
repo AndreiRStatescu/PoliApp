@@ -1,0 +1,22 @@
+
+username: Nokia
+pass: 1234
+
+username: Continental
+pass: 1000
+
+username: Oracle
+pass: Solaris
+
+username: Microsoft
+pass: 4
+
+username: Intel
+pass: 12
+
+username: Standford
+pass: 90000
+
+
+username: Dell
+pass: 7772

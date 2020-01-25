@@ -1,0 +1,95 @@
+
+student: Alina
+username: Nokia
+examen1: luat
+examen2: restanta
+examen3: luat
+zile de practica: 0
+review: /
+status: platit
+suma: 100
+
+student: Cristi
+username: Continental
+examen1: luat
+examen2: restanta
+examen3: restanta
+zile de practica: 100
+review: **
+status: platit  
+suma: 2000
+
+student: Dragos
+username: Standford
+examen1: luat
+examen2: luat
+examen3: luat
+zile de practica: 150
+review: ****
+status: neconfirmat
+suma: 1500
+
+student: Diana
+username: Nokia
+examen1: luat
+examen2: restanta
+examen3: restanta
+zile de practica: 99
+review: ****
+status: neconfirmat
+suma: 1500
+
+student: Daria
+username: Nokia
+examen1: /
+examen2: /
+examen3: /
+zile de practica: 89
+review: *****
+status: platit
+suma: 2000
+
+student: Flavius
+username: Nokia
+examen1: luat
+examen2: restanta
+examen3: restanta
+zile de practica: 120
+review: ***
+status: neplatit
+suma: 1000
+
+student: Sara
+username: Continental
+examen1: luat
+examen2: restanta
+examen3: restanta
+zile de practica: 108
+review: ****
+status: neconfirmat
+suma: 2500
+
+student: Daniel
+username: Continental
+examen1: luat
+examen2: luat
+examen3: luat
+zile de practica: 87
+review: *****
+status: neplatit
+suma: 1500
+
+student: Alexandra
+username: Continental
+examen1: restanta
+examen2: restanta
+examen3: restanta
+zile de practica: 150
+review: *****
+status: neconfirmat
+suma: 2000
+
+
+
+
+
