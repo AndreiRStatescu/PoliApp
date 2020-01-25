@@ -48,16 +48,16 @@
         char j[20];
         strcpy(j,l);
         materie[m].nr_profesori = atoi(j);
+
         int i;
         for (i=0;i<materie[m].nr_profesori;i++)
         {
         l=strtok(NULL, " ");
-        strcpy(materie[m].numeP[i][],l);
+        strcpy(materie[m].numeP[i],l);
         l=strtok(NULL, ",");
-        strcpy(materie[m].prenumeP[i][],l);
-        l=strtok(NULL, ",;");
+        strcpy(materie[m].prenumeP[i],l);
+       // l=strtok(NULL, ",");
         }
-
         m++;
     }
     *nrm=m;
