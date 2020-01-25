@@ -145,6 +145,7 @@ void Read_Students(struct student students[],struct user users[] ,int *nr, char 
 
         strcpy(r,q);
         strcat(r,"@upt.student.ro");
+        strcpy(users[k].numeUtilizator,r);
        /* x=0;
         for(i=0; i<k; i++)
         {
