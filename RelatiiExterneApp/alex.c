@@ -172,9 +172,9 @@ void organizator(int n,Org o[100])
     char r[100];
     int ok=0;
     Logare log;
-    fgetc(stdin);
     printf("\nPentru a te loga trebuie sa introduci un user si o parola.");
     printf("\nUser: ");
+    fflush(stdin);
     fgets(log.user,19,stdin);
     printf("\nParola: ");
     fgets(log.parola,19,stdin);
@@ -205,13 +205,13 @@ void organizator(int n,Org o[100])
         {
         case 0 :
             printf("Introduceti firma cu care doriti sa incetati colaborarea.");
-            fgets(r,100,stdin);
+            fflush(stdin);
             fgets(r,100,stdin);
             Delete_fct(r);
             break;
         case 1 :
             printf("Introduceti firma cu care doriti sa incepeti o noua colaborare.");
-            fgets(r,100,stdin);
+            fflush(stdin);
             fgets(r,100,stdin);
             Add_fct(r);
             break;
@@ -275,12 +275,7 @@ void main_organizator()
     while(fscanf(f,"\nuser: %s",o[n].user)!=EOF &&fscanf(f,"\npass: %s",o[n].parola)!=EOF)
         n++;
     fclose(f);
-    printf("%d",n);
-    for(int i=0; i<n; i++)
-    {
-        printf("\nuser: %s",o[i].user);
-        printf("\nparola: %s",o[i].parola);
-    }
+
     organizator(n,o);
 }
 
