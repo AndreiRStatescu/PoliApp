@@ -1,6 +1,5 @@
-Hella_Italy(Erasmus)
-Continental(Practica)
-Alcatel(Administratie)
-Continental(Practica)
-Bcr-Romania(Practica)
-Hotel_Astor_Tijuana(Erasmus)
+Hella_Italy
+Bcr-Romania
+Hotel_Astor_Tijuana
+
+Continental

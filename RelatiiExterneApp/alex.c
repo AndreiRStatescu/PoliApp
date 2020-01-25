@@ -162,7 +162,7 @@ void Add_fct(char r[100])
     n++;
     strcpy(s[n-1],r);
     for(i=0; i<n; i++)
-        fprintf(f,"%s\n",s[i]);
+        fprintf(f,"%s",s[i]);
     fclose(f);
 
 }
@@ -205,14 +205,14 @@ void organizator(int n,Org o[100])
         {
         case 0 :
             printf("Introduceti firma cu care doriti sa incetati colaborarea.");
-            fgets(r,19,stdin);
-            fgets(r,19,stdin);
+            fgets(r,100,stdin);
+            fgets(r,100,stdin);
             Delete_fct(r);
             break;
         case 1 :
             printf("Introduceti firma cu care doriti sa incepeti o noua colaborare.");
-            fgets(r,19,stdin);
-            fgets(r,19,stdin);
+            fgets(r,100,stdin);
+            fgets(r,100,stdin);
             Add_fct(r);
             break;
 
