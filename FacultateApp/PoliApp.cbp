@@ -31,7 +31,6 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="InputMaterii.txt" />
 		<Unit filename="InputStudents.csv" />
 		<Unit filename="cosmin.c">
 			<Option compilerVar="CC" />

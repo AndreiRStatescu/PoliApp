@@ -1,9 +1,69 @@
-#include<stdio.h>
-
-#include <string.h>
+#include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
-struct student
+  struct sali
+  { char numes[20] , tip_sala[20] ;
+  int nr_locuri;
+  };
+
+  void Read_Sali(struct sali sala[] , int *nrs,char fscanS[])
+  {FILE *f;
+  f = fopen(fscanS, "r");
+   char cladire[30],*p;
+   int n=0;
+   while(fgets(cladire,30,f))
+     {  p=strtok(cladire, ",");
+        strcpy(sala[n].numes,p);
+        p=strtok(NULL, ",");
+        strcpy(sala[n].tip_sala,p);
+        p=strtok(NULL, ",");
+        strcpy(sala[n].nr_locuri,p);
+
+       char c[4];
+        strcpy(c,p);
+        sala[n].nr_locuri= atoi(c);
+        p=strtok(NULL, ",");
+        n++;
+    }
+    *nrs=n;}//sfarsit si inceput
+
+   struct materi
+  { char numeM[20],numeP[20][31] , prenumeP[20][31] ;
+  int nr_profesori,anStudi,credite;
+  };
+  void Read_Materi(struct materi materie[] , int *nrm,char fscanM[])
+  {FILE *fi;
+  fi = fopen(fscanM, "r");
+   char programa[30],*l;
+   int m=0;
+   while(fgets(programa,30,fi))
+    {
+        l=strtok(programa, ",");
+        strcpy(materie[m].numeM,l);
+        l=strtok(NULL, ",");
+        strcpy(materie[m].anStudi,l);
+        l=strtok(NULL, ",");
+        strcpy(materie[m].nr_profesori,l);
+        char j[20];
+        strcpy(j,l);
+        materie[m].nr_profesori = atoi(j);
+
+        int i;
+        for (i=0;i<materie[m].nr_profesori;i++)
+        {
+        l=strtok(NULL, " ");
+        strcpy(materie[m].numeP[i],l);
+        l=strtok(NULL, ",");
+        strcpy(materie[m].prenumeP[i],l);
+       // l=strtok(NULL, ",");
+        }
+        m++;
+    }
+    *nrm=m;
+  }
+
+  struct student
 {
     char nume[31], prenume[31], sectie[11];
     int an;
