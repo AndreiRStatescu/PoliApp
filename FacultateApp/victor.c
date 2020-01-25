@@ -82,4 +82,26 @@ void plata(char nume[],char prenume [],float suma,struct student students[],int 
         if(stricmp(nume,students[i].nume)==0 && stricmp(prenume,students[i].prenume)==0)
             students[i].taxa=students[i].taxa-suma;
     }
+struct date
+{
+    char username[30];
+    char password[30];
+    char nume[30];
+    char prenume[30];
+} dates[50];
 
+void updateuser(struct date dates[],int n)
+{
+    FILE *f;
+    int i;
+    f=fopen("Updateuser.txt","w");
+    for(i=0; i<n; i++)
+    {
+        fprintf(f,"%s,",dates[i].nume);
+        fprintf(f,"%s,",dates[i].prenume);
+        fprintf(f,"%s,",dates[i].username);
+        fprintf(f,"%s,",dates[i].password);
+        fprintf(f,"\n");
+
+    }
+}
