@@ -11,17 +11,17 @@ struct user
     char username[100],password[31],type[31],nume[31],prenume[31];
 };
 
-void update(struct student v[], int nrStud){
+void updateStud(struct student v[], int nrStud){
  FILE *f;
     int i;
 
      f=fopen("StudentsData.txt","w");
 for(i=0;i<nrStud;i++)    {
-        fprintf(f,"%s,",v[i].nume);
-        fprintf(f,"%s,",v[i].prenume);
-        fprintf(f,"%s,",v[i].sectie);
-        fprintf(f,"%d,",v[i].an);
-        fprintf(f,"%d,",v[i].taxa);
+        fprintf(f,"%s ",v[i].nume);
+        fprintf(f,"%s ",v[i].prenume);
+        fprintf(f,"%s ",v[i].sectie);
+        fprintf(f,"%d ",v[i].an);
+        fprintf(f,"%d ",v[i].taxa);
         fprintf(f,"%f",v[i].nota);
         fprintf(f,"\n");
 
@@ -90,11 +90,11 @@ void updateuser(struct user dates[],int n)
     f=fopen("UsersData.txt","w");
     for(i=0; i<n; i++)
     {
-        fprintf(f,"%s,",dates[i].nume);
-        fprintf(f,"%s,",dates[i].prenume);
-        fprintf(f,"%s,",dates[i].username);
-        fprintf(f,"%s,",dates[i].password);
-        fprintf(f,"%s,",dates[i].type);
+        fprintf(f,"%s ",dates[i].nume);
+        fprintf(f,"%s ",dates[i].prenume);
+        fprintf(f,"%s ",dates[i].username);
+        fprintf(f,"%s ",dates[i].password);
+        fprintf(f,"%s ",dates[i].type);
         fprintf(f,"\n");
 
     }

@@ -36,15 +36,15 @@
 1575541142 source:c:\daniel\informatica\poliapp\victor.c
 	<stdio.h>
 
-1579969882 source:c:\users\danie\documents\github\poliapp\facultateapp\cosmin.c
+1579972640 source:c:\users\danie\documents\github\poliapp\facultateapp\cosmin.c
 	<stdio.h>
-	<string.h>
 	<stdlib.h>
+	<string.h>
 
-1579969882 source:c:\users\danie\documents\github\poliapp\facultateapp\kristi.c
+1579972570 source:c:\users\danie\documents\github\poliapp\facultateapp\kristi.c
 	<stdio.h>
 
-1579969882 source:c:\users\danie\documents\github\poliapp\facultateapp\main.c
+1579973106 source:c:\users\danie\documents\github\poliapp\facultateapp\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -66,7 +66,7 @@
 
 1578213554 ated upstream
 
-1579971605 source:c:\users\danie\documents\github\poliapp\facultateapp\tania.c
+1579972570 source:c:\users\danie\documents\github\poliapp\facultateapp\tania.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -76,10 +76,10 @@
 	<stdlib.h>
 	<string.h>
 
-1579971186 source:c:\users\danie\documents\github\poliapp\facultateapp\victor.c
+1579972962 source:c:\users\danie\documents\github\poliapp\facultateapp\victor.c
 	<stdio.h>
 
-1579969882 source:c:\users\danie\documents\github\poliapp\facultateapp\dani.c
+1579972570 source:c:\users\danie\documents\github\poliapp\facultateapp\dani.c
 	<stdio.h>
 
 1579899193 source:c:\users\alexa\documents\github\poliapp\facultateapp\dani.c
