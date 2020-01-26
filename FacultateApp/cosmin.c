@@ -6,8 +6,7 @@
   { char numes[20] , tip_sala[20] ;
   int nr_locuri;
   };
-
-  void Read_Sali(struct sali sala[] , int *nrs,char fscanS[])
+void Read_Sali(struct sali sala[] , int *nrs,char fscanS[])
   {FILE *f;
   f = fopen(fscanS, "r");
    char cladire[30],*p;
@@ -33,7 +32,7 @@
   int nr_profesori,anStudi,credite;
   };
 
-  void Read_Materi(struct materi materie[] , int *nrm,char fscanM[])
+ void Read_Materi(struct materi materie[] , int *nrm,char fscanM[])
   {FILE *fi;
   fi = fopen(fscanM, "r");
    char programa[101],*l;
@@ -63,7 +62,6 @@
     }
     *nrm=m;
   }
-
   struct student
 {
     char nume[31], prenume[31], sectie[11];

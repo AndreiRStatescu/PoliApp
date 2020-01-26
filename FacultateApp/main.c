@@ -37,8 +37,8 @@ int main()
     inserare_note(v,n2,materie,m2);
     schimbare_nota(v,numE,prenumE,nota_noua,indice_materie);
 
-     Read_Sali(sala,&nrs,"sali.in.txt");
-   Read_Materi(materie,&nrm,"materi.in.txt");
+     Read_Sali(sala,&nrs,"InputSali.csv");
+   Read_Materi(materie,&nrm,"InputMaterii.csv");
    for(i=0;i<nrs;i++)
    {
        printf("%s, %d, %s\n",sala[i].numes,sala[i].tip_sala,sala[i].nr_locuri);
@@ -49,7 +49,7 @@ int main()
        printf("%s, %d, %d,%s\n",materie[m].numeM,materie[m].anStudi,materie[m].nr_profesori,materie[m].numeP[i],materie[m].prenumeP[i]);
    }
 
-    Read_Students(students,&nrStud,"students_input.csv");
+    Read_Students(students,&nrStud,"InputStudents.csv");
 
     for(i=0;i<nrStud;i++)
     {
