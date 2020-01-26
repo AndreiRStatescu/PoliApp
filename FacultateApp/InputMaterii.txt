@@ -1,0 +1,3 @@
+LSD-Curs,1,1,Holotescu,Casandra
+LSD-Lab,1,2,Holotescu,Casandra,Statescu,Andrei
+PC-Lab,1,2,Farcas,Allen,Statescu,Andrei
