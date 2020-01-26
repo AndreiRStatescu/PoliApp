@@ -12,7 +12,7 @@ struct student
 {
     char nume[31], prenume[31], sectie[11];
     int an;
-    float taxa, nota;
+    float taxa, nota[31];
 }students[301];
 
  struct sali
@@ -26,7 +26,7 @@ struct student
   }materie[20];
 
 int main()
-{  int i,m,n,nrs,nrm,nrStud,n2=0,m2=0;
+{  int i,m,n,nrs,nrm,nrp,nrStud,n2=0,m2=0;
     char numE,prenumE;
     float nota_noua;
     int indice_materie;
@@ -36,27 +36,31 @@ int main()
     char materii[31][51];
     inserare_note(v,n2,materie,m2);
     schimbare_nota(v,numE,prenumE,nota_noua,indice_materie);
-
+printf("Da1 ");
      Read_Sali(sala,&nrs,"InputSali.csv");
    Read_Materi(materie,&nrm,"InputMaterii.csv");
+   printf("%d %d ",nrs,nrm);
    for(i=0;i<nrs;i++)
    {
-       printf("%s, %d, %s\n",sala[i].numes,sala[i].tip_sala,sala[i].nr_locuri);
+       printf("%s, %s, %d\n",sala[i].numes,sala[i].tip_sala,sala[i].nr_locuri);
    }
+printf("\n");
 
-    for(i=0;i<nrm;i++)
-   {
-       printf("%s, %d, %d,%s\n",materie[m].numeM,materie[m].anStudi,materie[m].nr_profesori,materie[m].numeP[i],materie[m].prenumeP[i]);
-   }
-
-    Read_Students(students,&nrStud,"InputStudents.csv");
-
-    for(i=0;i<nrStud;i++)
+    for(m=0;m<nrm;m++)
     {
-        printf("%s, %s, %d, %s\n",students[i].nume,students[i].prenume,students[i].an,students[i].sectie);
+        nrp=materie[m].nr_profesori;
+     for(i=0;i<nrp;i++)
+   {
+       printf("%s, %d, %d, %s, %s\n",materie[m].numeM,materie[m].anStudi,materie[m].nr_profesori,materie[m].numeP[i],materie[m].prenumeP[i]);
+   }
+   printf("%d ",m);
     }
 
+  /*  Read_Students(students,&nrStud,"InputStudents.csv");
 
-
+   for(i=0;i<nrStud;i++)
+    {
+        printf("%s, %s, %d, %s\n",students[i].nume,students[i].prenume,students[i].an,students[i].sectie);
+    }*/
     return 0;
 }
