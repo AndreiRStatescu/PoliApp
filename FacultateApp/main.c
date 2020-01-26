@@ -26,9 +26,17 @@ struct student
   }materie[20];
 
 int main()
-{
+{  int i,m,n,nrs,nrm,nrStud,n2=0,m2=0;
+    char numE,prenumE;
+    float nota_noua;
+    int indice_materie;
+    struct student v[200];
+    printf("%d Dati nr studenti=",n2);scanf("%d",&n2);
+    printf("%d Dati nr materi=",m2);scanf("%d",&m2);
+    char materii[31][51];
+    inserare_note(v,n2,materie,m2);
+    schimbare_nota(v,numE,prenumE,nota_noua,indice_materie);
 
-    int i,m,n,nrs,nrm,nrStud;
      Read_Sali(sala,&nrs,"sali.in.txt");
    Read_Materi(materie,&nrm,"materi.in.txt");
    for(i=0;i<nrs;i++)
@@ -47,16 +55,7 @@ int main()
     {
         printf("%s, %s, %d, %s\n",students[i].nume,students[i].prenume,students[i].an,students[i].sectie);
     }
-    char numE,prenumE;
-    float nota_noua;
-    int indice_materie;
-    struct student v[200];
-    int n2,m2;
-    printf(" %d n2 studenti=",n2);scanf("%d",&n2);
-    printf(" %d m2 materi=",m2);scanf("%d",&m2);
-    char materii[31][51];
-    inserare_note(v,n2,materie,m2);
-    schimbare_nota(v,numE,prenumE,nota_noua,indice_materie);
+
 
 
     return 0;

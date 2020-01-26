@@ -39,12 +39,12 @@
 1577966287 source:c:\users\cosmin-pc\documents\github\poliapp\facultateapp\dani.c
 	<stdio.h>
 
-1580048892 source:c:\users\cosmin-pc\documents\github\poliapp\facultateapp\cosmin.c
+1580053585 source:c:\users\cosmin-pc\documents\github\poliapp\facultateapp\cosmin.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 
-1580051683 source:c:\users\cosmin-pc\documents\github\poliapp\facultateapp\main.c
+1580052681 source:c:\users\cosmin-pc\documents\github\poliapp\facultateapp\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>

@@ -87,6 +87,7 @@ void schimbare_nota(struct student stud[], int n,struct materi materii[], int m)
     char numE[31],prenumE[31],mat[31];
     float nota_noua;
     printf("Dati numele dorit: ");
+    getchar();
     fgets(numE,30,stdin);
     numE[strlen(numE)-1]='\0';
     printf("Dati prenume dorit: ");
