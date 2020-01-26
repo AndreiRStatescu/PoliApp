@@ -7,7 +7,7 @@
   int nr_locuri;
   };
 
-  void Read_Sali(struct sali sala[] , int *nrs,char fscanS[])
+  void Read_Sali(struct sali sala[] , int &nrs,char fscanS[])
   {FILE *f;
   f = fopen(fscanS, "r");
    char cladire[30],*p;
@@ -23,16 +23,16 @@
        char c[4];
         strcpy(c,p);
         sala[n].nr_locuri= atoi(c);
-        p=strtok(NULL, ",");
+        p=strtok(NULL, "\n");
         n++;
     }
-    *nrs=n;}//sfarsit si inceput
+    nrs=n;}//sfarsit si inceput
 
    struct materi
   { char numeM[20],numeP[20][31] , prenumeP[20][31] ;
   int nr_profesori,anStudi;
   };
-  void Read_Materi(struct materi materie[] , int *nrm,char fscanM[])
+  void Read_Materi(struct materi materie[] , int &nrm,char fscanM[])
   {FILE *fi;
   fi = fopen(fscanM, "r");
    char programa[30],*l;
@@ -56,18 +56,19 @@
         strcpy(materie[m].numeP[i],l);
         l=strtok(NULL, ",");
         strcpy(materie[m].prenumeP[i],l);
-       // l=strtok(NULL, ",");
         }
+         l=strtok(NULL, "\n");
         m++;
+
     }
-    *nrm=m;
+    nrm=m;
   }
 
   struct student
 {
     char nume[31], prenume[31], sectie[11];
     int an;
-    float taxa, nota[31];
+    float taxa, nota;
 };
 
 void inserare_note(struct student stud[], int n,char materii[][31], int m)
@@ -101,4 +102,61 @@ void schimbare_nota(struct student stud[], int n,char materii[][31], int m)
             for(j=0;j<m;j++)
                 if(strcmp(materii[j],mat)==0)
                     stud[i].nota[j]=nota_noua;
+}
+
+void Read_Students(struct student students[], int *nr, char finput[])
+{
+    FILE *fr = fopen(finput, "r");
+    char line[101], *p;
+    int k=0;
+    while(fgets(line,100,fr))
+    {
+        p=strtok(line, ",");
+        strcpy(students[k].nume,p);
+        p=strtok(NULL, ",");
+        strcpy(students[k].prenume,p);
+        p=strtok(NULL, ",");
+        students[k].an = atoi(p);
+        p=strtok(NULL, ",");
+        strcpy(students[k].sectie,p);
+        p=strtok(NULL, ",;");
+
+        char t[5];
+        strcpy(t,p);
+        students[k].taxa = atof(t);
+        k++;
+    }
+    *nr=k;
+}
+
+int main ()
+{int i,nrs,nrm,nrStud;
+   Read_Sali(sala,&nrs,"sali.in.txt");
+   Read_Materi(materie,&nrm,"materi.in.txt");
+   for(i=0;i<nrs;i++)
+   {
+       printf("%s, %d, %s\n",sala[i].numes,sala[i].tip_sala,sala[i].nr_locuri);
+   }
+
+    for(i=0;i<nrm;i++)
+   {
+       printf("%s, %d, %d,%s\n",materie[m].numeM,materie[m].anStudi,materie[m].nr_profesori,materie[m].numeP[i],materie[m].prenumeP[i];
+   }
+
+    Read_Students(students,&nrStud,"student.int");
+    for(i=0;i<nrStud;i++)
+    {
+        printf("%s, %s, %d, %s\n",students[i].nume,students[i].prenume,students[i].an,students[i].sectie);
+    }
+
+  char numE,prenumE;
+float nota_noua;
+int indice_materie
+    struct student v[200];
+    int n,m;
+    char materii[31][51];
+    inserare_nota(v,n,materii,m);
+    schimbare_nota(v,numE,prenumE,nota_noua,indice_materie);
+
+    return 0;
 }
