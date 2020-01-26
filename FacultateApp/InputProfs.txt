@@ -1,0 +1,2 @@
+Holotescu Casandra,2, LSD-Curs, LSD-Lab,4,6,Duminica de la 22
+Statescu Andrei,1,PC-Lab,4,Vineri de la 12

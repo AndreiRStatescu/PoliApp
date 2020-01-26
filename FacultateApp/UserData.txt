@@ -1,0 +1,6 @@
+admin@upt.ro admin admin Eu Eu
+secretar@upt.ro secretar secretar Eu2 Eu2
+panteadaniel@upt.student.ro 123 student Pantea Daniel
+partania@upt.student.ro 123 student Par Tania
+popescusergiu@upt.student.ro 123 student Popescu Sergiu
+bociatdaniel@upt.student.ro 123 student Bociat Daniel
