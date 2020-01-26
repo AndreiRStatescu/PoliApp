@@ -100,6 +100,7 @@ void schimbare_nota(struct student stud[], int n,struct materi materii[], int m)
         if(strcmp(numE,stud[i].nume)==0 && (strcmp(prenumE,stud[i].prenume)==0))
             for(j=0;j<m;j++)
                 if(strcmp(materii[j].numeM,mat)==0)
-                    stud[i].nota[j]=nota_noua;
+                    {stud[i].nota[j]=nota_noua;
+                    printf("%d  Nota noua este \n",nota_noua);}
 }
 

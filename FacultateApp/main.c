@@ -31,11 +31,12 @@ int main()
     float nota_noua;
     int indice_materie;
     struct student v[200];
-    printf("%d Dati nr studenti=",n2);scanf("%d",&n2);
-    printf("%d Dati nr materi=",m2);scanf("%d",&m2);
+    printf(" Dati nr studenti=");scanf("%d",&n2);
+    printf("Dati nr materi=");scanf("%d",&m2);
     char materii[31][51];
     inserare_note(v,n2,materie,m2);
     schimbare_nota(v,numE,prenumE,nota_noua,indice_materie);
+     printf("  Nota noua este %d \n",nota_noua);
      Read_Sali(sala,&nrs,"InputSali.csv");
    Read_Materi(materie,&nrm,"InputMaterii.csv");
    printf("%d %d \n",nrs,nrm);
