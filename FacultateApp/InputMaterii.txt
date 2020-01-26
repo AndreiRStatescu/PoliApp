@@ -1,4 +1,4 @@
-Algebra
-LSD
-PC
-Analiza
+LSD-Curs,4,1,1,Holotescu,Casandra
+LSD-Lab,0,1,2,Holotescu,Casandra,Statescu,Andrei
+PC-Lab,0,1,2,Farcas,Allen,Statescu,Andrei
+Analiza-Curs,5,1,1,Cadariu,Liviu

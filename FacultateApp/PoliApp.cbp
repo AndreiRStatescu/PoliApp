@@ -32,7 +32,11 @@
 			<Add option="-Wall" />
 		</Compiler>
 		<Unit filename="InputMaterii.txt" />
+		<Unit filename="InputSali.txt" />
 		<Unit filename="InputStudents.csv" />
+		<Unit filename="StudentsData.txt" />
+		<Unit filename="ToDoList.txt" />
+		<Unit filename="UsersData.txt" />
 		<Unit filename="cosmin.c">
 			<Option compilerVar="CC" />
 		</Unit>
